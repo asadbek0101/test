@@ -1,0 +1,22 @@
+.left {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../assets/image/test.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.header-button {
+  border-bottom: 2px solid rgb(145, 132, 132);
+}
+.header-button button {
+  padding: 6px 20px;
+  margin-bottom: -2px;
+  font-weight: bold;
+}
+.active-class {
+  border: 2px solid rgb(145, 132, 132);
+  border-bottom: 2px solid white;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: white;
+}

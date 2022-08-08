@@ -1,0 +1,15 @@
+a {
+  font-size: 16px;
+  border-bottom: 3px solid #035397;
+  margin: 0 20px;
+  padding: 10px 0 4px 0;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #fff;
+  border-bottom: 3px solid white;
+}
+.active {
+  color: white;
+  border-bottom: 3px solid white;
+}
