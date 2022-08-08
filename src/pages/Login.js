@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "../components/Button/Button";
 import Input from "../components/Input/Input";
 import "./login.css";
+import {Link} from "react-router-dom";
 
 export default function Login() {
   const [page, setPage] = useState("login");
@@ -13,6 +14,7 @@ export default function Login() {
   };
   return (
     <div className="w-full h-screen flex  flex-row">
+      <Link to="/user-page/home">Home</Link>
       <div className="w-3/5   h-full left"></div>
       <div className="w-2/5    flex flex-col items-center justify-center px-5">
         <div className="w-4/5 bg-white rounded-md shadow-lg p-10 box-border">
